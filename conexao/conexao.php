@@ -3,8 +3,8 @@
  function conectar($banco) {
       $servidor = '192.168.2.239';
       //$servidor = '192.168.3.253';
-      $usuario = 'sa';
-      $senha = 'AspirE3100';
+      $usuario = '';
+      $senha = '';
       $con = mssql_connect($servidor, $usuario, $senha);
       mssql_select_db($banco, $con);
  }
